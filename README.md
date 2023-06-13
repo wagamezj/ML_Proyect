@@ -1,8 +1,7 @@
 # ML_Proyect
 
-![proceso.png](https://raw.githubusercontent.com/wagamezj/ML_Proyect/main/proceso.PNG)
+Dentro de nuestro proyecto de ML es necesario considerar tres pasos importantes y las herramientas que nos ayuden a soportar y tener un flujo optimo de datos y de modelo estas son:
 
-Dentro de los flujos de proyectos en machine learnig resulta importante comprender el flujo completo de un proyecto que por lo generar se ocupa de las siguientes caracteristicas
 ###  Ingeniería de datos
 
 - Ingesta de datos
@@ -18,3 +17,9 @@ Dentro de los flujos de proyectos en machine learnig resulta importante comprend
 
 - Servicio de modelo
 - Monitoreo del rendimiento del modelo
+
+El modelo que vamos a proponer es una arquitectura sencilla que cumpla con los estandares para un modelo aceptable , que cumpla los pasos que vimos anteriormente pero que a su vez facil incorporar nuevas herramientas y procesos
+
+![proceso.png](https://raw.githubusercontent.com/wagamezj/ML_Proyect/main/proceso.PNG)
+
+Iniciamos con una base de datos en amazon donde nos serviremos continumente , para hacer nuevas ingestas y versionamientos a traves de data version control o en este caso un producto de amazon que cumpla las caracteristicas. Luego llevar los codigos de un modelo a un repositorio que nos permita hacer un seguimiento a los cambios se podria utilizar el popular git o alguna privado de amazon como codecommit que cumpla las mismas caracteristicas. Luego nos codigo es necesario volcarlos la maquina que realizara el procesamiento para eso tenemos multiples opciones una es configurar un servicios en instancia EC2 que me servivirá para ejecutar todas las activaciones de procesos estas se podrian trabajar a travez de gighub action o traves de diversos p
