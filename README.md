@@ -28,3 +28,23 @@ Lo importante es que de aqui se cobija la integracion o ejecucion de tres servic
 - El Testing
 - La integracion continua y el despliegue , podria ser en un contenedor para activar un microservicio en FASTAPI
 - Entrenamiento continuo que va a utilizar  las librerias y modelos en python revisar el performance con continuos machine learning las metricas de nuestro modelo
+
+
+Existen herramientas como 
+
+![flujo.png](https://raw.githubusercontent.com/wagamezj/ML_Proyect/main/Mlflow.PNG)
+
+Machine Learning flow que nos ayudan a optimizar y tener cada parte del proceso de una formas mas facil, facilitando muchos de los pipelines, se podria acudir a una instancia y permitir una orquestacion mas facil mediante usos de opensource.
+
+Adicionalmente se recomienda
+
+- Implementación de un sistema escalable para manejar las solicitudes de inferencia en producción.
+- Uso de herramientas como Kubernetes o servicios en la nube para escalar automáticamente la infraestructura según la demanda.
+- Diseño de arquitecturas de inferencia distribuidas para manejar cargas de trabajo pesadas y mejorar el rendimiento.
+
+
+Ya que tenemos la libertad de usar herramientas privadas podriamos tambien usar Amazon SageMaker o Azure Machine Learning  que ofrecen toda una experiencia de principio a fin en el modelado pero a un mayor costo, algunas he tenido la oportunidad de probar como databrick o azure machine learning pero los mas importante es saber la finalidad del modelo y de esta forma planear una arquitectura ideal, sin descuidar nunca los elementos clave para el desarrollo.
+
+No genero un codigo de ejemplo debido a que creo que es necesario conocer un caso especifico, aun asi existen muchos codigos base en herramientas como Mlflow para iniciar un trabajo y hacer un despliegue casi inmediato de nuestros modelos.
+
+
