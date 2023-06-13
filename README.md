@@ -1,5 +1,7 @@
 # ML_Proyect
 
+!ML_Proyect/proceso.PNG
+
 Dentro de los flujos de proyectos en machine learnig resulta importante comprender el flujo completo de un proyecto que por lo generar se ocupa de las siguientes caracteristicas
 ###  Ingeniería de datos
 
